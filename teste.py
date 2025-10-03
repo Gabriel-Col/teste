@@ -2,7 +2,7 @@ def fatorial(a:int,acc:int)->int:
     if a <= 1:
         return acc
     else:
-        return fatorial(a - 1,acc - a)
+        return fatorial(a - 1,acc * a)
 
 def fibonacci(a:int, acc1:int, acc2:int) -> int:
     if a <= 1:
